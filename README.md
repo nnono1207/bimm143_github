@@ -9,11 +9,11 @@ Using R and other tools for bioinformatics analysis: 8, 9, 11, 12, 13, 14
 
 Including the webpage for the pdfs
 
-- Class 5: [Data viz ggplot]()
+- Class 5: [Data viz ggplot](https://github.com/nnono1207/bimm143_github/blob/main/classlab_05_ggplot2/classlab_5_ggplot2.pdf)
 
-- Class 6: []()
+- Class 6: [R Functions](https://github.com/nnono1207/bimm143_github/blob/main/classlab_06_Rfunctions/HW-Class-6-Question-6.pdf)
 
-- Class 7: []()
+- Class 7: [Machine Learning](https://github.com/nnono1207/bimm143_github/blob/main/classlab_07_machinelearning/class07.pdf)
 
 - Class 8: []()
 
