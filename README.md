@@ -9,11 +9,11 @@ List of classes to add with pdfs
 
 - Class 7: [Machine Learning](https://github.com/nnono1207/bimm143_github/blob/main/classlab_07_machinelearning/class07.pdf)
 
-- Class 8: [Mini Project]()
+- Class 8: [Mini Project](https://github.com/nnono1207/bimm143_github/blob/main/class08/class8_mini_project.pdf)
 
-- Class 9: [Structural Bioinformatics I]()
+- Class 9: [Structural Bioinformatics I](https://github.com/nnono1207/bimm143_github/blob/main/classlab09_structuralbioinformatics_1/classlab09_structuralbioinformatics_1.pdf)
 
-- Class 11: [Structural Bioinformatics II]()
+- Class 11: [Structural Bioinformatics II](https://github.com/nnono1207/bimm143_github/blob/main/classlab11_structuralbioinformatics_2/classlab11_bioinformatics_2.pdf)
 
 - Class 12: []()
 
