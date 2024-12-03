@@ -15,8 +15,8 @@ List of classes to add with pdfs
 
 - Class 11: [Structural Bioinformatics II](https://github.com/nnono1207/bimm143_github/blob/main/classlab11_structuralbioinformatics_2/classlab11_bioinformatics_2.pdf)
 
-- Class 12: [Genome Informatics]()
+- Class 12: [Genome Informatics](https://github.com/nnono1207/bimm143_github/blob/main/classlab12_genomeinformatics/classlab12_genomeinformatics.pdf)
 
-- Class 13: [Transcriptomics RNAseq]()
+- Class 13: [Transcriptomics RNAseq](https://github.com/nnono1207/bimm143_github/blob/main/classlab13_transcriptomics_rnaseq/classlab_transcriptomics_rnaseq.pdf)
 
-- Class 14: [RNASeq Mini Project]()
+- Class 14: [RNASeq Mini Project](https://github.com/nnono1207/bimm143_github/blob/main/classlab14_rnaseq_miniproject/classlab14_rnaseq_miniproject.pdf)
