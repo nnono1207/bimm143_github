@@ -1,13 +1,7 @@
 # BIMM143
 Classwork for [BIMM143 F24](https://github.com/nnono1207/bimm143_github/tree/main) at UC San Diego.
 
-List of classes we add: 
-
-Introductory Material and working with R: 5, 6, 7
-
-Using R and other tools for bioinformatics analysis: 8, 9, 11, 12, 13, 14
-
-Including the webpage for the pdfs
+List of classes to add with pdfs
 
 - Class 5: [Data viz ggplot](https://github.com/nnono1207/bimm143_github/blob/main/classlab_05_ggplot2/classlab_5_ggplot2.pdf)
 
@@ -15,11 +9,11 @@ Including the webpage for the pdfs
 
 - Class 7: [Machine Learning](https://github.com/nnono1207/bimm143_github/blob/main/classlab_07_machinelearning/class07.pdf)
 
-- Class 8: []()
+- Class 8: [Mini Project]()
 
-- Class 9: []()
+- Class 9: [Structural Bioinformatics I]()
 
-- Class 11: []()
+- Class 11: [Structural Bioinformatics II]()
 
 - Class 12: []()
 
