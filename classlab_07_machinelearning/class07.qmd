@@ -1,0 +1,277 @@
+---
+title: "Class 7: Machine Learning I"
+author: "Nathaniel Nono (PID: A16782656)"
+format: pdf
+---
+
+Today we are going to leanr how to apply different machine learning methods
+
+# In-Class Section
+
+## Clustering
+
+The goal here is to find groups/clusters in your data
+
+`rnorm` function:
+
+- Description: Density, distribution function, quantile function and random generation for the normal distribution with mean equal to mean and standard deviation equal to sd.
+
+- Arguments: 
+
+`n` = number of observations. If length(n) > 1, the length is taken to be the number required
+
+`mean` = vector of means
+
+`sd` = vector of standard deviations
+
+First I will make up some data with clear groups using the `rnorm` function
+
+```{r}
+# 10 points of data
+rnorm(10)
+```
+
+```{r}
+#10,000 points of data and turning it into a histogram
+hist(rnorm(10000))
+```
+
+```{r}
+# Changing the center of the distribution to +3
+hist(rnorm(10000, mean=3))
+```
+
+Make a vector with two peaks
+- Peak one = -3
+- Peak two = +3
+```{r}
+group_1 <- rnorm(10000, mean=-3)
+group_2 <- rnorm(10000, mean=3)
+hist(c(group_1, group_2))
+
+# Alternative code (Uncheck to use):
+# n <- 10000
+# x <- c(rnorm(n, -3), rnorm(n, +3))
+# hist(x)
+```
+
+```{r}
+n <- 30
+x <- c(rnorm(n, -3), rnorm(n, +3))
+hist(x)
+x
+```
+
+
+```{r}
+n <- 30
+x <- c(rnorm(n, -3), rnorm(n, +3))
+# Reverses version of its argument
+y <- rev(x)
+
+# Takes the x and y coordinates and 
+z <- cbind(x, y)
+head(z)
+
+plot(z)
+```
+
+## K-Means
+
+Use the `kmeans()` function setting k to 2 and nstart=20
+
+Inspect/print the results
+
+> Q. How many points are in each cluster?
+
+> Q. What component of your result object details
+      - Cluster size?
+      - Cluster assignment/member
+      - Cluster center?
+      
+> Q. Plot z colored by the kmeans colored by the kmeans cluster assignment and cluster centers as blue points
+
+Tip: Use `?kmenas` to enter the help page. Focus on the arguments that do not have defaults
+      - x = numeric matrix of data, or an object that can be coerced to such a             matrix (such as a numeric vector or a data frame with all numeric             columns).
+      
+      - centers = either the number of clusters, say 𝑘, or a set of initial                    (distinct) cluster centres. If a number, a random set of                      (distinct) rows in x is chosen as the initial centres.
+      
+```{r}
+km <- kmeans(z, centers = 2)
+km
+```
+
+- Cluster means - Shows the means of each cluster. Shows how close each point is to the center
+
+- **Cluster vector** - Shows how many points are in each cluster
+
+- Sum of squares by cluster - Shows how "good" the kmenas are (i think)
+
+
+Available components; Results in kmeans object `km`
+```{r}
+attributes(km)
+```
+
+
+> What is the cluster size?
+
+```{r}
+km$size
+```
+
+> Cluster assignment/membership?
+
+```{r}
+km$cluster
+```
+
+
+> Cluster center
+
+```{r}
+km$centers
+```
+
+> Q. Plot z colored by the kmeans colored by the kmeans cluster assignment and cluster centers as blue points
+      
+Remember, R will re-cycle the shorter color vector to be the same length as the longer (number of data points) in z
+
+```{r}
+plot(z, col=km$cluster)
+points(km$centers, col='blue', pch=15, cex=3)
+```
+
+> Q. Can you run kmeans and ask for 4 cluster please and plot the results like we have done above? -> Problem because there is a lot of uncertainty
+
+```{r}
+km4 <- kmeans(z, centers=4)
+plot(z, col=km4$cluster)
+points(km4$centers, col='blue', pch=15, cex=3)
+```
+
+> How do you solve this problem?
+
+- Scree plot - Systematically trying a range of different k values then finding the elbow point (The biggest seperation)
+
+
+## Hierarchical Clustering
+
+Bottom up cluster - Starting up from the bottom then making a cluster at the top.
+
+Let's take our same made-up data `z` and see how hclust works.
+
+`hclust()` function needs a distance matrix
+
+```{r}
+d <- dist(z)
+#d
+
+hc <- hclust(d)
+hc
+```
+
+Plotting the cluster dendrogram to show similarity
+```{r}
+plot(hc)
+abline(h=8, col='red')
+```
+
+I can get my cluster membership vector by "cutting the tree" with the `cutree()` function like so. This will give us our clusters:
+
+```{r}
+grps2 <- cutree(hc, h=8)
+grps2
+```
+
+> Can you plot `z` colored by our hclust results:
+
+```{r}
+plot(z, col=grps2)
+```
+
+```{r}
+plot(hc)
+abline(h=4.3, col='red')
+
+grps4 <- cutree(hc, h=4.3)
+grps4
+
+plot(z, col=grps4)
+```
+
+
+## Principtal Component Analysis (PCA)
+
+Finding the dimensionaly reduction, visualization, and 'structure' analysis 
+
+Seen on the lab website
+
+# Lab Section
+
+## PCA of UK food data
+
+> Q1. How many rows and columns are in your new data frame named x? What R functions could you use to answer this questions?
+
+Read data from the UK on food consumption in different parts of the UK
+
+```{r}
+url <- "https://tinyurl.com/UK-foods"
+x <- read.csv(url, row.names=1)
+
+head(x)
+```
+
+```{r}
+barplot(as.matrix(x), beside=T, col=rainbow(nrow(x)))
+```
+
+```{r}
+# beside = F; Stacked bar chart (More useless)
+barplot(as.matrix(x), beside=F, col=rainbow(nrow(x)))
+```
+
+A so-called "Pairs" plot can be useful for small datasets like this one
+
+```{r}
+pairs(x, col=rainbow(10), pch=16)
+```
+
+It's hard to see structure and trends in even this small data set. How will we ever do this when we have big data sets with 1,000s or 10s of thousands of things we are measuring...
+
+
+### PCA to the Rescue
+
+The main function in base R to do PCA is called `prcomp()`
+
+```{r}
+# transposing the values and performing a pca on it
+pca <- prcomp(t(x))
+summary(pca)
+```
+
+- PC1: Captures 67.44% of the data
+
+Let's see what is inside this `pca` object that we created from running `prcomp()`
+
+```{r}
+attributes(pca)
+```
+```{r}
+pca$x
+```
+
+Want to get the first two columns and plot them against each other
+
+```{r}
+plot(pca$x[,1], pca$x[,2], xlab="PC1 (67.4%)", ylab="PC2 (29.0%)", xlim=c(-270,500))
+text(pca$x[,1], pca$x[,2], colnames(x), col=c('black', 'red', 'blue', 'darkgreen'))
+```
+
+
+```{r}
+## Lets focus on PC1 as it accounts for > 90% of variance 
+par(mar=c(10, 3, 0.35, 0))
+barplot( pca$rotation[,1], las=2 )
+```
+
