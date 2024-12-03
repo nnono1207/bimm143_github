@@ -1,0 +1,28 @@
+---
+title: "Class 12: Genome informatics (online class)"
+author: "Nathaniel Nono (PID:A16782656)"
+format: html
+---
+
+# Identify genetic variants of interest
+
+
+
+## Q5: What proportion of the Mexican Ancestry in Los Angeles sample population (MXL) are homozygous for the asthma associated SNP (G|G)?
+
+```{r}
+mxl <- read.csv('373531-SampleGenotypes-Homo_sapiens_Variation_Sample_rs8067378.csv')
+```
+
+
+```{r}
+G.G <- table(mxl$Genotype..forward.strand.)
+```
+
+```{r}
+G.G / nrow(mxl) * 100
+```
+
+**14.0625%**
+
+
