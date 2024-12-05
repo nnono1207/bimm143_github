@@ -3,13 +3,13 @@ Classwork for [BIMM143 F24](https://github.com/nnono1207/bimm143_github/tree/mai
 
 List of classes to add with pdfs
 
-- Class 1: [Welcome to Bioinformatics]()
+- Class 1: [Welcome to Bioinformatics](https://github.com/nnono1207/bimm143_github/blob/main/lab1.pdf)
 
-- Class 2: [Sequence alignment fundamentals, algorithms and applications]()
+- Class 2: [Sequence alignment fundamentals, algorithms and applications](https://github.com/nnono1207/bimm143_github/blob/main/lab2.pdf)
 
-- Class 3: [Advanced sequence alignment and database searching]()
+- Class 3: [Advanced sequence alignment and database searching](https://github.com/nnono1207/bimm143_github/blob/main/lab3.pdf)
 
-- Class 4: [Bioinformatics data analysis with R]()
+- Class 4: [Bioinformatics data analysis with R](https://github.com/nnono1207/bimm143_github/blob/main/lab4.pdf)
 
 - Class 5: [Data exploration and visualization in R](https://github.com/nnono1207/bimm143_github/blob/main/classlab_05_ggplot2/classlab_5_ggplot2.pdf)
 
@@ -19,7 +19,7 @@ List of classes to add with pdfs
 
 - Class 8: [Unsupervised Learning Mini-Project](https://github.com/nnono1207/bimm143_github/blob/main/class08/class8_mini_project.pdf)
 
-- Class 9: [Halloween Candy Mini-Project]()
+- Class 9: [Halloween Candy Mini-Project](https://github.com/nnono1207/bimm143_github/blob/main/classlab_10_halloween/classlab_10_halloween.pdf)
 
 - Class 10: [Structural Bioinformatics I](https://github.com/nnono1207/bimm143_github/blob/main/classlab09_structuralbioinformatics_1/classlab09_structuralbioinformatics_1.pdf)
 
@@ -31,9 +31,9 @@ List of classes to add with pdfs
 
 - Class 14: [RNA-Seq analysis mini-project](https://github.com/nnono1207/bimm143_github/blob/main/classlab14_rnaseq_miniproject/classlab14_rnaseq_miniproject.pdf)
 
-- Class 15: [Mini Project: Investigating Pertussis Resurgence]()
+- Class 15: [Mini Project: Investigating Pertussis Resurgence](https://github.com/nnono1207/bimm143_github/blob/main/classlab15_pertussisresurgence/classlab15_pertussisresurgence.pdf)
 
-- Class 16: [Essential UNIX for bioinformatics]()
+- Class 16: [Essential UNIX for bioinformatics](https://github.com/nnono1207/bimm143_github/blob/main/classlab16_unix/HW8_unix_questions.pdf)
 
 
 
