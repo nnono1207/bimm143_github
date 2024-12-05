@@ -1,7 +1,7 @@
 ---
 title: "Class 5: Data Viz with ggplot"
 author: "Nathaniel Nono (PID: A16782656)"
-format: html
+format: gfm
 ---
 
 ## Plotting in R
