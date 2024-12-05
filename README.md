@@ -17,7 +17,7 @@ Classwork for [BIMM143 F24](https://github.com/nnono1207/bimm143_github/tree/mai
 
 # RStudio Project Reports
 
-- Class 5: [Data exploration and visualization in R](https://github.com/nnono1207/bimm143_github/blob/main/classlab_05_ggplot2/classlab_5_ggplot2.pdf)
+- Class 5: [Data exploration and visualization in R](https://github.com/nnono1207/bimm143_github/blob/main/classlab_05_ggplot2/classlab_5_ggplot2.md)
 
 - Class 6: [R functions and R packages from CRAN and BioConductor](https://github.com/nnono1207/bimm143_github/blob/main/classlab_06_Rfunctions/HW-Class-6-Question-6.pdf)
 
