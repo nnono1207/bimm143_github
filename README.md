@@ -11,7 +11,7 @@ Classwork for [BIMM143 F24](https://github.com/nnono1207/bimm143_github/tree/mai
 
 - Class 4: [Bioinformatics data analysis with R](https://github.com/nnono1207/bimm143_github/blob/main/lab4.pdf)
 
-- Class 12: [Genome Informatics](https://github.com/nnono1207/bimm143_github/blob/main/classlab12_genomeinformatics/classlab12_genomeinformatics.pdf)
+- Class 12: [Genome Informatics](https://github.com/nnono1207/bimm143_github/blob/main/classlab12_genomeinformatics/population_scale_analysis_hw.pdf)
 
 - Class 16: [Essential UNIX for bioinformatics](https://github.com/nnono1207/bimm143_github/blob/main/classlab16_unix/HW8_unix_questions.pdf)
 
