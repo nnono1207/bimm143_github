@@ -19,7 +19,9 @@ List of classes to add with pdfs
 
 - Class 8: [Unsupervised Learning Mini-Project](https://github.com/nnono1207/bimm143_github/blob/main/class08/class8_mini_project.pdf)
 
-- Class 9: [Structural Bioinformatics I (Halloween Project)](https://github.com/nnono1207/bimm143_github/blob/main/classlab09_structuralbioinformatics_1/classlab09_structuralbioinformatics_1.pdf)
+- Class 9: [Halloween Candy Mini-Project]()
+
+- Class 10: [Structural Bioinformatics I](https://github.com/nnono1207/bimm143_github/blob/main/classlab09_structuralbioinformatics_1/classlab09_structuralbioinformatics_1.pdf)
 
 - Class 11: [Structural Bioinformatics II (AlphaFold)](https://github.com/nnono1207/bimm143_github/blob/main/classlab11_structuralbioinformatics_2/classlab11_bioinformatics_2.pdf)
 
