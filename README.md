@@ -3,20 +3,38 @@ Classwork for [BIMM143 F24](https://github.com/nnono1207/bimm143_github/tree/mai
 
 List of classes to add with pdfs
 
-- Class 5: [Data viz ggplot](https://github.com/nnono1207/bimm143_github/blob/main/classlab_05_ggplot2/classlab_5_ggplot2.pdf)
+- Class 1: [Welcome to Bioinformatics]()
 
-- Class 6: [R Functions](https://github.com/nnono1207/bimm143_github/blob/main/classlab_06_Rfunctions/HW-Class-6-Question-6.pdf)
+- Class 2: [Sequence alignment fundamentals, algorithms and applications]()
 
-- Class 7: [Machine Learning](https://github.com/nnono1207/bimm143_github/blob/main/classlab_07_machinelearning/class07.pdf)
+- Class 3: [Advanced sequence alignment and database searching]()
 
-- Class 8: [Mini Project](https://github.com/nnono1207/bimm143_github/blob/main/class08/class8_mini_project.pdf)
+- Class 4: [Bioinformatics data analysis with R]()
 
-- Class 9: [Structural Bioinformatics I](https://github.com/nnono1207/bimm143_github/blob/main/classlab09_structuralbioinformatics_1/classlab09_structuralbioinformatics_1.pdf)
+- Class 5: [Data exploration and visualization in R](https://github.com/nnono1207/bimm143_github/blob/main/classlab_05_ggplot2/classlab_5_ggplot2.pdf)
 
-- Class 11: [Structural Bioinformatics II](https://github.com/nnono1207/bimm143_github/blob/main/classlab11_structuralbioinformatics_2/classlab11_bioinformatics_2.pdf)
+- Class 6: [R functions and R packages from CRAN and BioConductor](https://github.com/nnono1207/bimm143_github/blob/main/classlab_06_Rfunctions/HW-Class-6-Question-6.pdf)
+
+- Class 7: [Introduction to machine learning for Bioinformatics](https://github.com/nnono1207/bimm143_github/blob/main/classlab_07_machinelearning/class07.pdf)
+
+- Class 8: [Unsupervised Learning Mini-Project](https://github.com/nnono1207/bimm143_github/blob/main/class08/class8_mini_project.pdf)
+
+- Class 9: [Structural Bioinformatics I (Halloween Project)](https://github.com/nnono1207/bimm143_github/blob/main/classlab09_structuralbioinformatics_1/classlab09_structuralbioinformatics_1.pdf)
+
+- Class 11: [Structural Bioinformatics II (AlphaFold)](https://github.com/nnono1207/bimm143_github/blob/main/classlab11_structuralbioinformatics_2/classlab11_bioinformatics_2.pdf)
 
 - Class 12: [Genome Informatics](https://github.com/nnono1207/bimm143_github/blob/main/classlab12_genomeinformatics/classlab12_genomeinformatics.pdf)
 
-- Class 13: [Transcriptomics RNAseq](https://github.com/nnono1207/bimm143_github/blob/main/classlab13_transcriptomics_rnaseq/classlab_transcriptomics_rnaseq.pdf)
+- Class 13: [Transcriptomics and the analysis of RNA-Seq data](https://github.com/nnono1207/bimm143_github/blob/main/classlab13_transcriptomics_rnaseq/classlab_transcriptomics_rnaseq.pdf)
 
-- Class 14: [RNASeq Mini Project](https://github.com/nnono1207/bimm143_github/blob/main/classlab14_rnaseq_miniproject/classlab14_rnaseq_miniproject.pdf)
+- Class 14: [RNA-Seq analysis mini-project](https://github.com/nnono1207/bimm143_github/blob/main/classlab14_rnaseq_miniproject/classlab14_rnaseq_miniproject.pdf)
+
+- Class 15: [Mini Project: Investigating Pertussis Resurgence]()
+
+- Class 16: [Essential UNIX for bioinformatics]()
+
+
+
+
+
+

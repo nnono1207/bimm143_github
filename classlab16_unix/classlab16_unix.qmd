@@ -1,0 +1,18 @@
+---
+title: "Classlab 16: Essential UNIX for bioinformatics"
+author: "Nathaniel Nono (PID: A16782656)"
+format: html
+---
+
+```{r}
+
+```
+
+
+
+
+
+
+
+
+
